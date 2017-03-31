@@ -1,0 +1,16 @@
+@mixin fn{
+  font-size: 2px;
+}
+.cl {
+  @at-root .c2 {
+    border:1px solid #ffffff;
+    border-radius: 5px;
+  }
+  .c3 {
+    color: red;
+    @include fn;
+  }
+}
+.layer {
+  background: url('../../assets/bg1.png') no-repeat;
+}
